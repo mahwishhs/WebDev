@@ -1,0 +1,71 @@
+#row{
+    display: flex;
+    column-gap: 10px; 
+    margin-left: 150px;
+    margin-right: 100px;
+
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: 590px;
+
+}
+
+#pic1{
+    width: 200px;
+    height: 400px;
+    background-image: url("assets/dog-1.jpg");
+    background-size: contain;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#pic2{
+    width: 200px;
+    height: 400px;
+    background-image: url("assets/dog-2.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+#pic3{
+    width: 200px;
+    height: 400px;
+    background-image: url("assets/dog-3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#pic4{
+    width: 200px;
+    height: 400px;
+    background-image: url("assets/dog-4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#pic5{
+    width: 200px;
+    height: 400px;
+    background-image: url("assets/dog-5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#pic1:hover,#pic2:hover,#pic3:hover,#pic:hover,#pic5:hover{
+    width: 500px;
+    height: 400px;
+    transition: ease 1ms;
+}
+
+
+
+@media only screen and (min-width: 800px) {
+  .row {float: left;}
+} 

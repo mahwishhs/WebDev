@@ -1,0 +1,71 @@
+.formdiv{
+    background-color: rgb(9, 38, 66);
+    font-family: "Poppins";
+    
+}
+fieldset {
+    padding: 40px;
+    width: 600px;
+    border-radius: 20px solid white;
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 6pt;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 6pt;
+    box-sizing: border-box;
+}
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid white;
+    border-radius: 6pt;
+    box-sizing: border-box;
+}
+input[type=radio], select {
+    box-sizing: border-box;
+    margin: 0 0 2rem;
+    display: inline-block;
+    color: black;
+}
+
+div {
+    color: white;
+    font-family: "Poppins";
+    display: inline-block;
+    margin: 8px 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 20px;
+    max-width: 800px;
+}
+h1 {
+    color: white;
+    font-family: "Poppins";
+}
+p {
+    color: white;
+    font-family: "Poppins";
+}
+
+button {
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 10px;
+}
